@@ -1,0 +1,63 @@
+﻿*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	/*background-image:url('img/logo2.jpg');*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:15px;
+	line-height:1.5;
+	background-color:silver;
+	margin:10px;
+
+}
+.wrapper{
+	width:80%;
+	height:80%;
+	margin:auto;
+	overflow:hidden;
+}
+header{	/* for the navigation and logo */
+	background-color:gray;
+	color:white;
+	padding-top:30px;
+	min-height:70px;
+	border-bottom: orange 3px solid; /*bottom border*/
+}
+header #branding{
+	float:left;
+	height:100%;
+	background-image:url('img/logo.png');
+}
+header nav{
+	float:left;
+}
+header nav li{
+		display:inline;
+		padding: 0 20px 0 20px;
+}
+header nav a{	/*alter how we see the links */
+	color:white;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:16px;
+}
+#showcase{  /*showcase image, to be replaced with slideshow in due course */
+	background:url('img/logo2.jpg');
+	min-height:400px;
+	text-align:center;
+}
+#boxes {
+	margin-top:20px;
+}
+#boxes .box{
+	float: left;
+	text-align:left;
+	width:30%;
+	padding:10px;
+}
+footer{ /* must be able to keep footer at the bottom*/
+	height:80%;
+	margin-top: 20x;
+	border-top:thin silver solid;
+}
