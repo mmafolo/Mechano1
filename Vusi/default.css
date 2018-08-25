@@ -1,63 +1,54 @@
-﻿*{
-	margin:0px;
-	padding:0px;
-}
 body{
-	/*background-image:url('img/logo2.jpg');*/
-	font-family: Arial, Helvetica, sans-serif;
-	font-size:15px;
-	line-height:1.5;
-	background-color:silver;
-	margin:10px;
-
+	font: 15px/1.5 Arial, Helvetica;
+	padding: 0;
+	margin: 0;
+	background-color: silver;
 }
-.wrapper{
+.container{
 	width:80%;
-	height:80%;
-	margin:auto;
+	margin: auto;
 	overflow:hidden;
 }
-header{	/* for the navigation and logo */
-	background-color:gray;
-	color:white;
-	padding-top:30px;
+header{
+	background: gray;
+	color:#ffffff;
+	padding-top: 10px;
+	margin-top: 20px;
 	min-height:70px;
-	border-bottom: orange 3px solid; /*bottom border*/
+}
+header a{
+		color:white;
+		text-decoration: none;
+		font-size: 18px;
+	}
+header ul{
+	padding:0;
+	margin:0;
+}
+header li{
+	float:left;
+	display:inline;
+	padding: 0 20px 0 20px;
 }
 header #branding{
 	float:left;
-	height:100%;
-	background-image:url('img/logo.png');
+	margin-bottom: 10px;
+}
+header #branding img{
+	width:auto;
+	max-height: 120px;
 }
 header nav{
-	float:left;
-}
-header nav li{
-		display:inline;
-		padding: 0 20px 0 20px;
-}
-header nav a{	/*alter how we see the links */
-	color:white;
-	text-decoration:none;
-	text-transform:uppercase;
-	font-size:16px;
-}
-#showcase{  /*showcase image, to be replaced with slideshow in due course */
-	background:url('img/logo2.jpg');
-	min-height:400px;
-	text-align:center;
-}
-#boxes {
+	float: right;
 	margin-top:20px;
 }
-#boxes .box{
-	float: left;
-	text-align:left;
-	width:30%;
-	padding:10px;
+header nav li a:hover{
+	background-color: orange;
 }
-footer{ /* must be able to keep footer at the bottom*/
-	height:80%;
-	margin-top: 20x;
-	border-top:thin silver solid;
+#showcase img{
+	width:100%;
+	max-height: 250px;
+}
+#boxes{
+	margin-top: 20px;
 }
